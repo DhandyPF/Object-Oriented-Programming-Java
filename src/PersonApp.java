@@ -8,13 +8,15 @@ public class PersonApp {
 
         person1.sayHello("A");
 
-        Person person2 = new Person("Budi", "Kuningan");
+        Person person2 = new Person("Putra", "Kuningan");
+        System.out.println(person2.name);
+        System.out.println(person2.address);
+        person2.sayHello("B");
 
-//        Person person3;
-//        person3 = new Person();
-
-//        System.out.println(person1);
-//        System.out.println(person2);
-//        System.out.println(person3);
+        Person person3;
+        person3 = new Person();
+        person3.name = "Fahruddin";
+        System.out.println(person3.name);
+        person3.sayHello("C");
     }
 }
