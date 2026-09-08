@@ -1,7 +1,8 @@
 class Person {
     String name;
     String address;
-    String country;
+    String country2;
+    final String country = "Indonesia";
 
     Person(String paramName) {
         this(paramName, null);
@@ -15,7 +16,7 @@ class Person {
     Person(String paramName, String paramAddress, String paramCountry) {
         name = paramName;
         address = paramAddress;
-        country = paramCountry;
+        country2 = paramCountry;
     }
 
     Person(){
