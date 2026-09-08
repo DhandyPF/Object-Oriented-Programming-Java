@@ -18,5 +18,7 @@ public class PersonApp {
         person3.name = "Fahruddin";
         System.out.println(person3.name);
         person3.sayHello("C");
+
+        Person person4 = new Person("Putri", "Purbalingga", "Indonesia");
     }
 }
