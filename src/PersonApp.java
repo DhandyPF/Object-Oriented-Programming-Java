@@ -1,4 +1,4 @@
-public class PersonApp {
+class PersonApp {
     static void main() {
         var person1 = new Person("Dhandy", "Cirebon");
 //        person1.country = "India";
