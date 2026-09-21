@@ -1,6 +1,6 @@
 package programmer.it.application;
 
-import programmer.it.data.Product;
+import programmer.it.data.*;
 
 public class Application {
     static void main() {
@@ -8,5 +8,7 @@ public class Application {
 
         System.out.println(product.name);
         System.out.println(product.price);
+
+        Data data = new Data();
     }
 }
